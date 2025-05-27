@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	  font-family: "Montserrat", sans-serif;
+	  padding-bottom: 20px;
+	  font-size: 16px;
+}
+
+h1{
+	background-color: skyblue;
+	color: white;
+	padding-left: 20px;
+	font-size: 22px;
+	padding-bottom: 2px;
+	padding-top: 2px;
+}
+
+h2{
+	background-color: skyblue;
+	color: white;
+	padding-left: 20px;
+	font-size: 20px;
+	padding-bottom: 2px;
+	padding-top: 2px;
+}
+
+h3{
+	background-color: skyblue;
+	color: white;
+	padding-left: 20px;
+	font-size: 18px;
+	padding-bottom: 2px;
+	padding-top: 2px;
+}
+
+h4{
+	background-color: skyblue;
+	color: white;
+	padding-left: 20px;
+	font-size: 18px;
+	padding-bottom: 2px;
+	padding-top: 2px;
+}
+
+h5{
+	background-color: skyblue;
+	color: white;
+	padding-left: 20px;
+	font-size: 14px;
+	padding-bottom: 2px;
+	padding-top: 2px;
+}
+
+p{
+	padding-top: 5px;
+	padding-left: 20px;
+	padding-bottom: 10px;
+	padding-right: 25px;
+}
+
+ol{
+	padding-left: 38px;
+	padding-bottom: 10px;
+}
+
+ul{
+	padding-left: 35px;
+	padding-bottom: 10px;
+}
+
+img{
+	padding-left: 20px;
+	padding-bottom: 10px;
+}
+
+iframe{
+	padding-left: auto;
+	padding-bottom: 10px;
+	margin: 10px;
+}
+
+.logo{
+	padding: 10px;
+	width: 75px;
+	height: 75px;
+}
+
+.espaciolista{
+	padding-bottom: 5px;
+}
+
+.textorecetas{
+	font-size: 14px;
+}
+
+.imagenprimera{
+	width: 480px;
+	height: 280px;
+	padding-top: 8px;
+}
+
+.imagensegunda{
+	width: 250px;
+	height: 250px;
+	margin: 10px;
+}
+
+body{
+	background-color: white;
+}
+
+main{
+	width: 1280px;
+	height: 1756px;
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header{
+	width: 94%;
+	height: 96px;
+	background-color: #2c3e50;
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+    float: right;
+    padding: 0 40px;
+}
+
+nav{
+	display: flex;
+    gap: 50px;
+    float: right;
+}
+
+nav a {
+    color: #ffffff; 
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.3s ease;
+}
+
+section{
+	width: 100%;
+}
+
+footer{
+	width: 97%;
+	height: 160px;
+	background-color: #2c3e50;
+	font-size: 10px;
+	color: white;
+	display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+#izquierda1{
+	width: 35%;
+	height: 300px;
+	background-color: white;
+	float: left;
+}
+
+#derecha1{
+	width: 65%;
+	height: 300px;
+	background-color: white;
+	float: left;
+}
+
+#izquierda2{
+	width: 77%;
+	height: 270px;
+	background-color: white;
+	float: left;
+}
+
+#derecha2{
+	width: 23%;
+	height: 270px;
+	background-color: white;
+	float: left;
+}
+
+#contenedor{
+	width: 580px;
+	height: 325px;
+	background-color: skyblue;
+	border: 2px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+}
+
+.recetitas{
+	text-decoration: none;
+	color: black;
+}
+
+.footerlogo img{
+    height: 80px;
+}
+
+.footernavegacion{
+    color: white;
+    font-weight: 200;
+    align-items: center;
+}
+
+.footerredes{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding-right: 7px;
+}
+
+.footerredes a img{
+    height: 25px;
+    width: 25px;
+}
+
+.legal{
+	text-decoration: none;
+	color: white;
+}
+
+.galeria{
+  text-align: center;
+  margin-top: 40px;
+}
+
+.galeria h2{
+  margin-bottom: 20px;
+}
+
+.imagenes{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.imagenes img{
+  width: 300px;
+  height: 170px;
+  background-color: skyblue;
+  border: 2px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-left: 10px;
+  margin-top: 40px;
+}
+
+.imagenes img:hover{
+  transform: scale(1.05);
+}
+
+main2{
+	width: 1280px;
+	height: 500px;
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+section2{
+	width: 100%;
+	height: 450px;
+}
+
+footer2{
+	width: 97%;
+	height: 160px;
+	background-color: #2c3e50;
+	font-size: 10px;
+	color: white;
+	display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-top: 100px;
+}
